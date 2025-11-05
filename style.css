@@ -1,0 +1,28 @@
+.jc-productTab {
+  background-color: #ffffff;
+}
+
+.jc-productTabSelected {
+  border: 1px solid #5f9ffa;
+  box-shadow: 0 0 0 0.2rem #5f9ffa;
+}
+
+label {
+  color: #8e939a;
+}
+
+input,
+select {
+  color: #222;
+  background-color: #fff;
+}
+
+input::placeholder {
+  color: #d8d8d8;
+}
+
+#_submit_button {
+  background-color: #5f9ffa;
+  border: 1px solid #5f9ffa;
+  color: #fff;
+}

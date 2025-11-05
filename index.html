@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Secure Payment</title>
+
+    <!-- Optional custom styling -->
+    <link rel="stylesheet" href="https://yourusername.github.io/checkout-template/style.css" />
+  </head>
+
+  <body style="background: rgba(247, 233, 233, 1); font-family: 'Merriweather', serif;">
+    <div class="m-template">
+      <div class="m-template__body">
+        <div class="m-template__logo"></div>
+
+        <label style="color: rgba(142, 147, 154, 1);">Transaction details</label>
+
+        <div class="m-trx">
+          <div class="m-trx__amt amount">
+            <p id="amount" style="color: rgba(25, 57, 102, 1);"></p>
+          </div>
+          <div class="m-trx__meta details">
+            <span>Organisation</span>
+            <p id="organisation_name"></p>
+            <span>Merchant reference</span>
+            <p id="merchant_reference"></p>
+          </div>
+        </div>
+
+        <label style="color: rgba(142, 147, 154, 1);">Payment method</label>
+
+        <div class="has-style m-payment__form">
+          <form id="paymentForm" method="POST"></form>
+          <div id="jwt"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
